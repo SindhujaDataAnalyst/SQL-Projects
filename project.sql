@@ -23,7 +23,7 @@ INSERT INTO customers (first_name, last_name, email, phone, address, city, count
 ('Mia', 'Rodriguez', 'mia.rodriguez@email.com', '0123456789', '147 Palm St', 'San Jose', 'USA');
 select * from customers;
 
-	CREATE TABLE products (
+CREATE TABLE products (
     product_id INT PRIMARY KEY AUTO_INCREMENT,
     product_name VARCHAR(100),
     category VARCHAR(50),
